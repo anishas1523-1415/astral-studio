@@ -105,6 +105,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/gramcare-pharmacy-v1.0.0/GramCarePharmacy-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "wakeup-ai",
+      "name": "Wake Up AI",
+      "tagline": "Skin analyzer, hair and supplement advisor powered by Gemini.",
+      "icon": "/icons/wakeup-ai.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "96.4 MB",
+          "notes": "First public release (debug build).",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/wakeup-ai-v1.0.0/WakeUpAI-1.0.0.apk"
+        }
+      ]
     }
   ]
 }
