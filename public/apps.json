@@ -15,6 +15,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.0/AuraSynq-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "skinova-ai",
+      "name": "Skinova AI",
+      "tagline": "AI skin analysis and personalised skincare guidance.",
+      "icon": "/icons/skinova-ai.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "86.5 MB",
+          "notes": "First public release.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/skinova-ai-v1.0.0/SkinovaAI-1.0.0.apk"
+        }
+      ]
     }
   ]
 }
