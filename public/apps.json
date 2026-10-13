@@ -30,6 +30,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/skinova-ai-v1.0.0/SkinovaAI-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "autospend",
+      "name": "AutoSpend",
+      "tagline": "AI expense tracker: log spending, see analytics, stay on budget.",
+      "icon": "/icons/autospend.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "33.3 MB",
+          "notes": "First public release (arm64 phones).",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/autospend-v1.0.0/AutoSpend-1.0.0.apk"
+        }
+      ]
     }
   ]
 }

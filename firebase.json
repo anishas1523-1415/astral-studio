@@ -28,6 +28,11 @@
         "source": "/get/skinova-ai",
         "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/skinova-ai-v1.0.0/SkinovaAI-1.0.0.apk",
         "type": 302
+      },
+      {
+        "source": "/get/autospend",
+        "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/autospend-v1.0.0/AutoSpend-1.0.0.apk",
+        "type": 302
       }
     ]
   }
