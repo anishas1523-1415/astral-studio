@@ -33,6 +33,11 @@
         "source": "/get/autospend",
         "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/autospend-v1.0.0/AutoSpend-1.0.0.apk",
         "type": 302
+      },
+      {
+        "source": "/get/gramcare-patient",
+        "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/gramcare-patient-v1.0.0/GramCarePatient-1.0.0.apk",
+        "type": 302
       }
     ]
   }

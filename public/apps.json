@@ -45,6 +45,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/autospend-v1.0.0/AutoSpend-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "gramcare-patient",
+      "name": "GramCare Patient",
+      "tagline": "GramCare AI for patients: consult doctors, track health and order medicines.",
+      "icon": "/icons/gramcare-patient.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "94.8 MB",
+          "notes": "First public release.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/gramcare-patient-v1.0.0/GramCarePatient-1.0.0.apk"
+        }
+      ]
     }
   ]
 }
