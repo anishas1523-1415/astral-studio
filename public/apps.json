@@ -60,6 +60,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/gramcare-patient-v1.0.0/GramCarePatient-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "gramcare-doctor",
+      "name": "GramCare Doctor",
+      "tagline": "GramCare AI for doctors: manage consultations and patient records.",
+      "icon": "/icons/gramcare-doctor.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "90.8 MB",
+          "notes": "First public release.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/gramcare-doctor-v1.0.0/GramCareDoctor-1.0.0.apk"
+        }
+      ]
     }
   ]
 }
