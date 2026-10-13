@@ -120,6 +120,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/wakeup-ai-v1.0.0/WakeUpAI-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "studymate",
+      "name": "StudyMate",
+      "tagline": "Your AI study companion.",
+      "icon": "/icons/studymate.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "49.3 MB",
+          "notes": "First public release.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/studymate-v1.0.0/StudyMate-1.0.0.apk"
+        }
+      ]
     }
   ]
 }
