@@ -43,6 +43,11 @@
         "source": "/get/gramcare-doctor",
         "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/gramcare-doctor-v1.0.0/GramCareDoctor-1.0.0.apk",
         "type": 302
+      },
+      {
+        "source": "/get/nexora",
+        "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/nexora-v1.0.0/Nexora-1.0.0.apk",
+        "type": 302
       }
     ]
   }

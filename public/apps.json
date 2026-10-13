@@ -75,6 +75,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/gramcare-doctor-v1.0.0/GramCareDoctor-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "nexora",
+      "name": "Nexora",
+      "tagline": "All-in-one Android enhancer: app lock, launcher, automation, media tools and an assistant.",
+      "icon": "/icons/nexora.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "193.9 MB",
+          "notes": "First public release (debug build).",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/nexora-v1.0.0/Nexora-1.0.0.apk"
+        }
+      ]
     }
   ]
 }
