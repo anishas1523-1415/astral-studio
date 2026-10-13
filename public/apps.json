@@ -1,4 +1,20 @@
 {
   "studio": "Astral Studio",
-  "apps": []
+  "apps": [
+    {
+      "id": "aurasynq",
+      "name": "AuraSynq",
+      "tagline": "Music that floats around you: moods, trending hits, lyrics and blends.",
+      "icon": "/icons/aurasynq.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-13",
+          "size": "8.7 MB",
+          "notes": "First public release: floating mood bubbles, Trending and Tamil hits, full-screen player with lyrics, Google sign-in with library sync, share cards.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.0/AuraSynq-1.0.0.apk"
+        }
+      ]
+    }
+  ]
 }

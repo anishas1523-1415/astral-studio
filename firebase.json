@@ -3,6 +3,27 @@
     "site": "astral-studio",
     "public": "public",
     "cleanUrls": true,
-    "redirects": []
+    "headers": [
+      {
+        "source": "/apps.json",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          },
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/get/aurasynq",
+        "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.0/AuraSynq-1.0.0.apk",
+        "type": 302
+      }
+    ]
   }
 }
