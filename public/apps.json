@@ -83,6 +83,13 @@
       "icon": "/icons/nexora.png",
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-10-13",
+          "size": "187.7 MB",
+          "notes": "Signed release build. Installs as com.nexora.app, separate from the 1.0.0 debug build, which you can uninstall.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/nexora-v1.0.1/Nexora-1.0.1.apk"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-10-13",
           "size": "193.9 MB",
@@ -110,7 +117,7 @@
       "id": "wakeup-ai",
       "name": "Wake Up AI",
       "tagline": "Skin analyzer, hair and supplement advisor powered by Gemini.",
-      "icon": "/icons/wakeup-ai.png",
+      "icon": "/icons/wakeup-ai.png?v=2",
       "versions": [
         {
           "version": "1.0.1",
@@ -132,7 +139,7 @@
       "id": "studymate",
       "name": "StudyMate",
       "tagline": "Your AI study companion.",
-      "icon": "/icons/studymate.png",
+      "icon": "/icons/studymate.png?v=2",
       "versions": [
         {
           "version": "1.0.0",
@@ -147,7 +154,7 @@
       "id": "buddy-visor",
       "name": "Buddy Visor",
       "tagline": "AI motorcycle HUD: crash detection, hazard alerts and voice ride coaching.",
-      "icon": "/icons/buddy-visor.png",
+      "icon": "/icons/buddy-visor.png?v=2",
       "versions": [
         {
           "version": "1.0.0",
