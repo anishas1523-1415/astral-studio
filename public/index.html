@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astral Studio · Apps by Anish</title>
+  <meta name="description" content="Download all of Anish's Android apps in one place.">
+  <meta property="og:title" content="Astral Studio">
+  <meta property="og:description" content="All of Anish's Android apps, in one place.">
+  <meta name="theme-color" content="#07080f">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="sky"><span class="a"></span><span class="b"></span><span class="c"></span></div>
+  <div class="wrap">
+    <header class="hero">
+      <div class="mark">AS</div>
+      <h1><em>Astral</em> Studio</h1>
+      <p class="tag">Every app I build, in one place. Always the latest version.</p>
+    </header>
+    <main id="apps" class="grid"></main>
+    <p id="empty" class="empty" hidden>New apps are on their way. Check back soon.</p>
+  </div>
+  <footer>Astral Studio · Android apps download as APK files.</footer>
+  <script>
+    fetch("/apps.json", { cache: "no-store" }).then((r) => r.json()).then(({ apps }) => {
+      const grid = document.getElementById("apps");
+      if (!apps.length) { document.getElementById("empty").hidden = false; return; }
+      for (const app of apps) {
+        const latest = app.versions[0];
+        const card = document.createElement("a");
+        card.className = "card";
+        card.href = `/app.html?id=${encodeURIComponent(app.id)}`;
+        card.innerHTML = `
+          <div class="card-top">
+            <img class="icon" alt="">
+            <div><h2></h2><p class="meta"></p></div>
+          </div>
+          <p class="desc"></p>
+          <span class="btn">Download</span>`;
+        card.querySelector("img").src = app.icon;
+        card.querySelector("h2").textContent = app.name;
+        card.querySelector(".meta").textContent = `v${latest.version} · ${latest.date}`;
+        card.querySelector(".desc").textContent = app.tagline;
+        grid.appendChild(card);
+      }
+    });
+  </script>
+</body>
+</html>

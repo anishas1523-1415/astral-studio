@@ -1,0 +1,8 @@
+{
+  "hosting": {
+    "site": "astral-studio",
+    "public": "public",
+    "cleanUrls": true,
+    "redirects": []
+  }
+}

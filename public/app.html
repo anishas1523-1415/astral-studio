@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astral Studio</title>
+  <meta name="theme-color" content="#07080f">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="sky"><span class="a"></span><span class="b"></span><span class="c"></span></div>
+  <div class="wrap">
+    <a class="back" href="/">← All apps</a>
+    <div class="app-head">
+      <img id="icon" class="icon" alt="">
+      <div>
+        <h1 id="name"></h1>
+        <p id="tagline" class="tag"></p>
+        <p id="meta" class="meta"></p>
+      </div>
+    </div>
+    <p style="margin-bottom: 18px;"><a id="download" class="btn" href="#">Download latest APK</a></p>
+
+    <section class="section"><h3>What's new</h3><p id="notes" class="notes"></p></section>
+    <section class="section">
+      <h3>How to install</h3>
+      <ol>
+        <li>Tap <b>Download latest APK</b> and open the file when it finishes.</li>
+        <li>If Android asks, allow installing from this browser ("Install unknown apps").</li>
+        <li>Tap <b>Install</b>. Updates install over the old version, and your data stays.</li>
+      </ol>
+    </section>
+    <section class="section"><h3>All versions</h3><ul id="versions" class="versions"></ul></section>
+  </div>
+  <footer>Astral Studio</footer>
+  <script>
+    const id = new URLSearchParams(location.search).get("id");
+    fetch("/apps.json", { cache: "no-store" }).then((r) => r.json()).then(({ apps }) => {
+      const app = apps.find((a) => a.id === id);
+      if (!app) { location.href = "/"; return; }
+      const latest = app.versions[0];
+      document.title = `${app.name} · Astral Studio`;
+      document.getElementById("icon").src = app.icon;
+      document.getElementById("name").textContent = app.name;
+      document.getElementById("tagline").textContent = app.tagline;
+      document.getElementById("meta").textContent = `v${latest.version} · ${latest.date} · ${latest.size}`;
+      document.getElementById("download").href = `/get/${app.id}`;
+      document.getElementById("notes").textContent = latest.notes;
+      const list = document.getElementById("versions");
+      for (const v of app.versions) {
+        const li = document.createElement("li");
+        li.innerHTML = `<span></span><a>Download</a>`;
+        li.querySelector("span").textContent = `v${v.version} · ${v.date}`;
+        li.querySelector("a").href = v.url;
+        list.appendChild(li);
+      }
+    });
+  </script>
+</body>
+</html>
