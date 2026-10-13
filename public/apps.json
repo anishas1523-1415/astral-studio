@@ -113,6 +113,13 @@
       "icon": "/icons/wakeup-ai.png",
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-10-13",
+          "size": "55.5 MB",
+          "notes": "Signed release build (smaller and faster than 1.0.0). If you installed 1.0.0, uninstall it first.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/wakeup-ai-v1.0.1/WakeUpAI-1.0.1.apk"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-10-13",
           "size": "96.4 MB",
