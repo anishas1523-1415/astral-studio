@@ -68,6 +68,11 @@
         "source": "/get/buddy-visor",
         "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/buddy-visor-v1.0.0/BuddyVisor-1.0.0.apk",
         "type": 302
+      },
+      {
+        "source": "/get/moodisai",
+        "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/moodisai-v1.0.0/MoodIsai-1.0.0.apk",
+        "type": 302
       }
     ]
   }

@@ -164,6 +164,21 @@
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/buddy-visor-v1.0.0/BuddyVisor-1.0.0.apk"
         }
       ]
+    },
+    {
+      "id": "moodisai",
+      "name": "MoodIsai",
+      "tagline": "Where your mood meets music: pick a mood, get the perfect playlist.",
+      "icon": "/icons/moodisai.png",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-14",
+          "size": "16.2 MB",
+          "notes": "First public release (arm64 phones).",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/moodisai-v1.0.0/MoodIsai-1.0.0.apk"
+        }
+      ]
     }
   ]
 }
