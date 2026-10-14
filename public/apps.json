@@ -30,6 +30,13 @@
       "icon": "/icons/skinova-ai.png",
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-10-14",
+          "size": "86.6 MB",
+          "notes": "Latest Skinova AI build with recent changes.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/skinova-ai-v1.0.1/SkinovaAI-1.0.1.apk"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-10-13",
           "size": "86.5 MB",
