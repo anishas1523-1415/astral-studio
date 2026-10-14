@@ -45,6 +45,13 @@
       "icon": "/icons/autospend.png",
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-10-14",
+          "size": "86.7 MB",
+          "notes": "Latest AutoSpend build with all recent changes. Now one APK for every phone (32- and 64-bit). Installs over 1.0.0.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/autospend-v1.0.1/AutoSpend-1.0.1.apk"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-10-13",
           "size": "33.3 MB",
