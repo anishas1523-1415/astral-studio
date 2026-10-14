@@ -8,6 +8,13 @@
       "icon": "/icons/aurasynq.png",
       "versions": [
         {
+          "version": "1.0.1",
+          "date": "2026-10-14",
+          "size": "8.7 MB",
+          "notes": "New Aura Tour: a guided spotlight walkthrough with a gesture lesson (replay it from Profile). Dim status bar, smoother playback recovery and better offline handling.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.1/AuraSynq-1.0.1.apk"
+        },
+        {
           "version": "1.0.0",
           "date": "2026-10-13",
           "size": "8.7 MB",
