@@ -144,10 +144,17 @@
     },
     {
       "id": "studymate",
-      "name": "StudyMate",
-      "tagline": "Your AI study companion.",
+      "name": "Examate",
+      "tagline": "Your exam success partner: AI-powered study help.",
       "icon": "/icons/studymate.png?v=2",
       "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-10-14",
+          "size": "49.3 MB",
+          "notes": "Now called Examate, with its proper app icon (replaces the default Flutter logo). Installs over 1.0.0.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/studymate-v1.0.1/Examate-1.0.1.apk"
+        },
         {
           "version": "1.0.0",
           "date": "2026-10-13",
