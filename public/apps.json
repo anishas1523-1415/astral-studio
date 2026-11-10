@@ -8,6 +8,13 @@
       "icon": "/icons/aurasynq.png",
       "versions": [
         {
+          "version": "1.0.2",
+          "date": "2026-11-10",
+          "size": "8.7 MB",
+          "notes": "Update alerts: AuraSynq now tells you when a new version is out on Astral Studio, with a one-tap Update button.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.2/AuraSynq-1.0.2.apk"
+        },
+        {
           "version": "1.0.1",
           "date": "2026-10-14",
           "size": "8.7 MB",
