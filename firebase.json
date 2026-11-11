@@ -21,7 +21,7 @@
     "redirects": [
       {
         "source": "/get/aurasynq",
-        "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.2/AuraSynq-1.0.2.apk",
+        "destination": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.3/AuraSynq-1.0.3.apk",
         "type": 302
       },
       {

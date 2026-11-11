@@ -8,6 +8,13 @@
       "icon": "/icons/aurasynq.png",
       "versions": [
         {
+          "version": "1.0.3",
+          "date": "2026-11-11",
+          "size": "8.8 MB",
+          "notes": "Voice search and on-device hum search: sing or hum a tune to find the song. Smarter Tamil search (\"naan\"/\"main\" now mean \"I\").",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.3/AuraSynq-1.0.3.apk"
+        },
+        {
           "version": "1.0.2",
           "date": "2026-11-10",
           "size": "8.7 MB",
