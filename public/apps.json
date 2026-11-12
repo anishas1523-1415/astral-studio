@@ -8,24 +8,10 @@
       "icon": "/icons/aurasynq.png",
       "versions": [
         {
-          "version": "1.0.7",
-          "date": "2026-11-12",
-          "size": "6.2 MB",
-          "notes": "Songs now play as released, with lyrics timed to the recording. Picks the right language version of multi-language songs.",
-          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.7/AuraSynq-1.0.7.apk"
-        },
-        {
-          "version": "1.0.6",
-          "date": "2026-11-12",
-          "size": "6.2 MB",
-          "notes": "Trending now uses official YouTube data for more accurate charts, with each song's language. Daily chart snapshots.",
-          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.6/AuraSynq-1.0.6.apk"
-        },
-        {
           "version": "1.0.4",
-          "date": "2026-11-11",
+          "date": "2026-11-12",
           "size": "6.2 MB",
-          "notes": "Smarter recommendations that learn from how you listen. Better hum search, tuned nightly. Recent searches no longer fill up with hum and \"songs like\" labels.",
+          "notes": "Songs play as released with lyrics timed to the recording, and in the song's own language. Trending uses official YouTube data. Smarter recommendations that learn how you listen, and better hum search.",
           "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.4/AuraSynq-1.0.4.apk"
         },
         {
