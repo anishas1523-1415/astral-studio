@@ -8,6 +8,13 @@
       "icon": "/icons/aurasynq.png",
       "versions": [
         {
+          "version": "1.0.7",
+          "date": "2026-11-12",
+          "size": "6.2 MB",
+          "notes": "Songs now play as released, with lyrics timed to the recording. Picks the right language version of multi-language songs.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.7/AuraSynq-1.0.7.apk"
+        },
+        {
           "version": "1.0.6",
           "date": "2026-11-12",
           "size": "6.2 MB",
