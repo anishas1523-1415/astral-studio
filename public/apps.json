@@ -8,6 +8,13 @@
       "icon": "/icons/aurasynq.png",
       "versions": [
         {
+          "version": "1.0.6",
+          "date": "2026-11-12",
+          "size": "6.2 MB",
+          "notes": "Trending now uses official YouTube data for more accurate charts, with each song's language. Daily chart snapshots.",
+          "url": "https://github.com/anishas1523-1415/astral-studio/releases/download/aurasynq-v1.0.6/AuraSynq-1.0.6.apk"
+        },
+        {
           "version": "1.0.4",
           "date": "2026-11-11",
           "size": "6.2 MB",
